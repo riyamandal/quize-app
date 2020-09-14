@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style type="text/css" media="screen">
+
+    *{
+           font-family: 'Lato',sans-serif;
+       box-sizing: border-box;
+        }
+            .header{
+            font-family: 'Permanent Marker', cursive;
+            font-size: 36px;
+            color: #ed1164;
+            font-style: italic;
+            text-align: center;
+            letter-spacing: 6px;
+            background: #323232;
+            border-radius: 16px;
+             padding: 2px;
+             position: sticky;
+             top: 0;
+        }
+        .title4{
+            padding: 8px;
+            margin: 8px;
+            border: solid #333333 2px;
+            border-radius: 16px;
+            color:black;
+            background: #efefef; 
+            text-decoration:none;
+            width: 50px;
+        }
+         .title4:link{
+            color: aqua;
+        }
+        .title4:visited{
+            color: purple;
+        }
+        .title4:hover{
+            color: brown;
+            background: aqua;
+            font-size: 25px;
+        }
+        .title4:active{
+            color: green;
+        }
+         .quiz-navb{
+           height: 30px
+           margin: 0 auto;
+        }
+        .quiz-navb{
+            position:sticky;
+            top:7%;
+            background: pink;
+            padding: 30px;
+        }
+        .quiz-section{
+            font-weight: bold;
+           font-style: italic; 
+        }
+        .question-ol > li{
+            border-left: 5px solid purple;
+            background: #efefef;
+        }
+        .question-ol > li::first-letter{
+            color:red;
+            font-size: 28px;
+        }
+        
+       
+        
+        .answer-wrapper{
+            
+            padding: 6px;
+
+        }
+        .answer-button{
+            border: 2px solid green;
+            padding: 5px;
+
+        }
+        .answer-button:hover + .answer-text{
+            display: inline;
+            padding: 5px;
+        }
+        .answer-text{
+            display: none;
+
+        }
+        #easy{
+            background: #b92e2e;
+            padding: 8px;
+            margin-top: 20px;
+        }
+        
+         #medium {
+            background: #dc729a;
+            padding: 8px;
+        }
+        .section-heading{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">GENERAL KNOWLEDGE</h1>
+    <nav class="quiz-navb">
+         <span class="quize-section">LEVEL :</span>
+    	<a class="title4" href="#easy">EASY</a>
+    	<a class="title4" href="#medium">MEDIUM</a>
+    	<a class="title4" href="#hard">HARD</a>
+    </nav>
+    <section id="easy">
+    	<h2 class="section-heading">EASY</h2>
+    	
+    		<ol>
+    			<!--------question----->
+    			<li> <h3>FROM WHICH MOVIE?</h3>
+    			<!--------for answer----------->
+    			<div><iframe width="360" height="315" src="https://www.youtube.com/embed/LIqdLFKU7UI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                </div>
+                <div class="answer-wrapper">
+                    <span class="answer-button">SHOW ANSWER</span>
+
+                    <span class="answer-text"> => Beauty And Beast </span></div>
+    			</li>
+    			<li> <h3>FROM WHICH MOVIE SONGS?</h3>
+                    <div><audio controls src="video/audio1.mp3"></audio></audio></div>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+                    <span class="answer-button">SHOW ANSWER</span>
+
+                    <span class="answer-text">STREET DANCER</span></div>
+    			</li>
+    			
+    		</ol>
+   
+    	
+
+    </section>
+     <section id="medium">
+    	<h2 class="section-heading">MEDIUM</h2>
+    	
+    		<ol>
+    			<!--------question----->
+    			<li> <h3>IN THIS VIDEO TELL THE MOVIE NAME AND ALSO TELL SOMTHING ABOUT THIS CLIP?</h3>
+    			<!--------for answer----------->
+    			<div><iframe width="260" height="215" src="https://www.youtube.com/embed/74WMO1LZ728?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+                <div class="answer-wrapper">
+                    <span class="answer-button">SHOW ANSWER</span>
+
+                    <span class="answer-text">=> When street rat Aladdin frees a genie from a lamp, he finds his wishes granted. However, he soon finds that the evil has other plans for the lamp -- and for Princess Jasmine. But can Aladdin save Princess Jasmine and his love for her after she sees that he isn't quite what he appears to be?</span></div>
+    			</li>
+    			<li> <h3>IN THIS AUDIO TELL THE NAME ALSO TELL SHORT NOTE?</h3>
+    			<!--------for answer----------->
+                <div><audio controls src="video/audio2.mp3"></audio></audio></div>
+    			<div class="answer-wrapper">
+                    <span class="answer-button">SHOW ANSWER</span>
+
+                    <span class="answer-text">=> A tragic incident forces Anirudh, a middle-aged man, to take a trip down memory lane and reminisce his college days along with his friends, who were labelled as losers.</span></div>
+    			</li>
+                
+    			
+    		</ol>
+   
+    	
+
+    </section>
+    
+</body>
+</html>

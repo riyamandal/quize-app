@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8"/>
+	<title>EDUCATION QUIZ</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<style type="text/css" media="screen">
+        *{
+           font-family: 'Lato',sans-serif;
+       box-sizing: border-box;
+        }
+        	.header{
+			font-family: 'Permanent Marker', cursive;
+			font-size: 36px;
+			color: #ed1164;
+			font-style: italic;
+			text-align: center;
+			letter-spacing: 6px;
+            background: #323232;
+            border-radius: 16px;
+             padding: 2px;
+             position: sticky;
+             top: 0;
+		}
+		.title3{
+			padding: 8px;
+			margin: 8px;
+			border: solid #333333 2px;
+            border-radius: 16px;
+            color:black;
+            background: #efefef; 
+            text-decoration:none;
+            width: 50px;
+		}
+		
+        .title3:link{
+            color: aqua;
+        }
+        .title3:visited{
+            color: purple;
+        }
+        .title3:hover{
+            color: brown;
+            background: aqua;
+            font-size: 25px;
+        }
+        .title3:active{
+            color: green;
+        }
+        .quiz-navbar{
+           height: 30px
+           margin: 0 auto;
+        }
+        .quiz-navbar{
+			position:sticky;
+			top:7%;
+			background: pink;
+			padding: 30px;
+		}
+        .quiz-level{
+            font-weight: bold;
+           font-style: italic; 
+        }
+        .question-ol > li{
+        	border-left: 5px solid purple;
+        	background: #efefef;
+        }
+        .question-ol > li::first-letter{
+        	color:red;
+        	font-size: 28px;
+        }
+        .answer-ol{
+        	margin: 0 0 20px 0;
+        }
+        .answer-ol > li{
+        	font-weight: 480;
+        	color: #0006ff;
+        	font-size: 16px;
+        	text-transform: capitalize;
+        }
+        
+        .answer-wrapper{
+        	
+        	padding: 6px;
+
+        }
+        .answer-button{
+        	border: 2px solid green;
+        	padding: 5px;
+
+        }
+        .answer-button:hover + .answer-text{
+        	display: inline;
+        	padding: 5px;
+        }
+        .answer-text{
+        	display: none;
+
+        }
+        #easy{
+        	background: #b92e2e;
+        	padding: 8px;
+        	margin-top: 20px;
+        }
+        
+         #medium {
+        	background: #dc729a;
+        	padding: 8px;
+        }
+        
+         #hard{
+        	background: #ff00ab;
+        	padding: 8px;
+        }
+        .section-heading{
+        	text-align:center;
+        }
+
+		</style>
+</head>
+<body>
+    <h1 class="header">EDUCATION</h1>
+    <nav class="quiz-navbar">
+    	 <span class="quize-level">LEVEL :</span>
+    	<a class="title3" href="#easy">EASY</a>
+    	<a class="title3" href="#medium">MEDIUM</a>
+    	<a class="title3" href="#hard">HARD</a>
+    </nav>
+    <section id="easy">
+    	<h2 class="section-heading">EASY</h2>
+    	
+    		<ol class="question-ol">
+    			<!--------question----->
+    			<li> <h3>What is the full form of HTML?</h3>
+    			<ol class="answer-ol">
+    				<li>option 1</li>
+    				<li>option 2</li>
+    				<li>option 3</li>
+    				<li>option 4</li>
+    			</ol>
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+
+    				<span class="answer-text"> => Hyper Text Markup Language</span></div>
+    			</li>
+    			<li> <h3>What is the full form of CSS?</h3>
+    				<ol class="answer-ol">
+    				<li>option 1</li>
+    				<li>option 2</li>
+    				<li>option 3</li>
+    				<li>option 4</li>
+    			</ol>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> Cascading Style Sheets</span></div>
+    			</li>
+    			<li> <h3>What is the full form of C.P.U?</h3>
+    				<ol class="answer-ol">
+    				<li>option 1</li>
+    				<li>option 2</li>
+    				<li>option 3</li>
+    				<li>option 4</li>
+    			</ol>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> Central Processing Unit</span></div>
+    			</li>
+    			<li> <h3>Who is the mind of computer?</h3>
+    				<ol class="answer-ol">
+    				<li>option 1</li>
+    				<li>option 2</li>
+    				<li>option 3</li>
+    				<li>option 4</li>
+    			</ol>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> C.P.U</span></div>
+    			</li>
+    		</ol>
+   
+    	
+
+    </section>
+     <section id="medium">
+    	<h2 class="section-heading">MEDIUM</h2>
+    	
+    		<ol class="question-ol">
+    			<!--------question----->
+    			<li> <h3>What is  HTML?</h3>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> HTML is the standard markup language for Web pages.HTML elements are the building blocks of HTML pages.HTML elements are represented by <> tags</span>
+
+                </div>
+
+
+    			</li>
+    			<li> <h3>What is Css?</h3>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> CSS stands for Cascading Style Sheets
+
+                 CSS describes how HTML elements are to be displayed</span></div>
+    			</li>
+    			<li> <h3>What is HTTP?</h3>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> HTTP stands for Hyper Text Transfer Protocol
+
+                 WWW is about communication between web clients and servers
+
+                 Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses</span></div>
+    			</li>
+    			<li> <h3>What is JavaScript?</h3>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> JavaScript is the Programming Language for the Web.
+
+                 JavaScript can update and change both HTML and CSS.
+
+                 JavaScript can calculate, manipulate and validate data.</span></div>
+    			</li>
+    			<li> <h3>What is CSS Icons?</h3>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> Icons come in scalable vector libraries that can be customized with CSS
+
+                Common libraries are:
+
+                Font Awesome Icons
+                 Bootstrap Icons
+                 Google Icons</span></div>
+    			</li>
+    			<li> <h3>What is Bootstrap?</h3>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">\
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+
+                 Bootstrap 4 is the newest version of Bootstrap</span></div>
+    			</li>
+    			<li> <h3>What is GitHub?</h3>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> GitHub is a code hosting platform for collaboration and version control.
+
+                 GitHub lets you (and others) work together on projects.</span></div>
+    			</li>
+    			<li> <h3>What is React?</h3>
+    			<!--------for answer----------->
+    			<div class="answer-wrapper">
+    				<span class="answer-button">SHOW ANSWER</span>
+    				<span class="answer-text">=> React is a JavaScript library created by Facebook
+
+                 React is a User Interface (UI) library
+
+                 React is a tool for building UI components</span></div>
+    			</li>
+    		</ol>
+   
+    	
+
+    </section>
+     <section id="hard">
+    	<h2 class="section-heading">HARD</h2>
+    	
+    		<ol class="question-ol">
+    			<!--------question----->
+    			<li> <h3> What are tags?</h3>
+    			<!--------for answer----------->
+    			<div>
+    				=> Content is placed in between HTML tags in order to properly format it. It makes use of the less than symbol (<) and the greater than symbol (>). A slash symbol is also used as a closing tag. For example:
+
+                </div>
+    			</li>
+    			<li> <h3> What are some of the common lists that can be used when designing a page?</h3>
+    			<!--------for answer----------->
+    			<div>=> You can insert any or a combination of the following list types:
+    				<ul style="list-style-type: square;">
+                 <li> ordered list </li>
+                 <li>unordered list </li>
+                 <li> definition list</li>
+                 <li> menu list</li>
+                 <li> directory list</li>
+             </ul>
+                Each of this list types makes use of a different tag set to compose</div>
+    			</li>
+    			<li> <h3>How many types of heading does an HTML contain?</h3>
+    			<!--------for answer----------->
+    			<div>=> The HTML contains six types of headings which are defined with the &lt;h1&gt; to &lt;h6&gt; tags. Each type of heading tag displays different text size from another. So, &lt;h1&gt; is the largest heading tag and &lt;h6&gt; is the smallest one. For example:
+
+                  <h1>Heading no. 1</h1>    
+                 <h2>Heading no. 2</h2>    
+                 <h3>Heading no. 3</h3>    
+                 <h4>Heading no. 4</h4>    
+                 <h5>Heading no. 5</h5>    
+                 <h6>Heading no. 6</h6> </div>
+    			</li>
+    			<li> <h3>What are the advantages of using GIT?</h3>
+    			<!--------for answer----------->
+    			<div >=>Here are some of the essential advantages of Git:
+    				<ul>
+
+                   <li>Data repetition and data replication is possible</li>
+                    <li>It is a much applicable service</li>
+                     <li>For one depository you can have only one directory of Git</li>
+                       <li>The network performance and disk application are excellent</li>
+                        <li>It is effortless to collaborate on any project</li>
+                       <li>You can work on any plan within the Git</li>
+</ul>
+</div>
+    			</li>
+    		</ol>
+   
+    	
+
+
+    </section>
+
+
+</body>
+</html>
